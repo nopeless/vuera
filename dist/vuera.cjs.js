@@ -462,7 +462,7 @@ var VuePlugin = {
       }, {}) : mergedValue;
       return Object.assign(mergedValue, wrappedComponents);
     };
-    Vue$$1.prototype.constructor.isVue = true;
+    Object.getPrototypeOf(Vue$$1).constructor.isVue = true;
   }
 };
 
